@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ioannis Koupidis · UX Designer</title>
+<meta name="description" content="Ioannis Koupidis. UX Designer shaped by 20+ years in design, branding, and operations · twelve of them inside Swedish healthcare.">
+<meta property="og:title" content="Ioannis Koupidis · UX Designer">
+<meta property="og:description" content="A UX Designer CV shaped by twenty years of design and twelve years inside Swedish healthcare.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23FBFAF8'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='30' fill='%231C1A17'%3EIK%3Ctspan fill='%23A5502F'%3E.%3C/tspan%3E%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,300..700;1,7..72,300..700&family=Noto+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --accent: #A5502F; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #FBFAF8; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-family: 'Inter', system-ui, sans-serif; color: #1C1A17; min-height: 100vh; }
+  ::selection { background: #EDE4DA; }
+  @keyframes caret-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+  a.contact-link { color: #55504A; text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 1px; transition: color 0.2s ease, border-color 0.2s ease; }
+  a.contact-link:hover { color: #1C1A17; border-bottom-color: #C9C2B6; }
+  a.contact-link:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
+
+  a.pdf-btn { display: inline-flex; align-items: center; gap: 8px; background: #1C1A17; color: #FBFAF8; text-decoration: none; font-size: 12.5px; font-weight: 500; padding: 11px 18px; border-radius: 6px; transition: background 0.2s ease, transform 0.2s ease; }
+  a.pdf-btn:hover { background: #000000; transform: translateY(-1px); }
+  a.pdf-btn:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
+
+  a.li-btn { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; border: 1px solid #DED6CB; background: #fffaf2; color: #1C1A17; text-decoration: none; padding: 11px 14px; border-radius: 6px; transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease; }
+  a.li-btn:hover { border-color: #C9C2B6; background: #fff7ec; transform: translateY(-1px); }
+  a.li-btn:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
+
+  .metric-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .metric { border: 1px solid #E4DFD5; border-radius: 12px; padding: 14px 12px; background: #fffdf9; }
+  .metric strong { display: block; font-family: 'Fraunces', 'Literata', serif; font-size: 24px; font-weight: 520; color: var(--accent); line-height: 1; }
+  .metric span { display: block; margin-top: 7px; font-size: 11px; line-height: 1.35; color: #6E685F; }
+  @media (max-width: 640px) { .metric-grid { grid-template-columns: 1fr 1fr; } }
+
+  a.case-link { margin-top: 4px; display: inline-flex; align-items: center; gap: 8px; color: var(--accent); text-decoration: none; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 13px; font-weight: 500; border-bottom: 1.5px solid #E0CFC6; padding-bottom: 1px; width: fit-content; transition: border-color 0.2s ease; }
+  a.case-link:hover { border-bottom-color: var(--accent); }
+  a.case-link:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
+
+  a.closing-link { color: var(--accent); text-decoration: none; border-bottom: 1.5px solid #E0CFC6; padding-bottom: 1px; transition: border-color 0.2s ease; }
+  a.closing-link:hover { border-bottom-color: var(--accent); }
+  a.closing-link:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
+
+  /* Language switcher */
+  .lang-switch { display: flex; align-items: center; gap: 2px; margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; }
+  .lang-btn { background: none; border: none; cursor: pointer; font: inherit; font-weight: 500; letter-spacing: 0.1em; color: #8A8378; padding: 4px 7px; border-bottom: 1.5px solid transparent; transition: color 0.2s ease, border-color 0.2s ease; }
+  .lang-btn:hover { color: #1C1A17; }
+  .lang-btn[aria-pressed="true"] { color: #1C1A17; border-bottom-color: var(--accent); }
+  .lang-btn:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
+  .lang-sep { color: #D8D2C6; user-select: none; }
+
+  [data-reveal] { transition: opacity 0.7s cubic-bezier(0.2,0.6,0.2,1), transform 0.7s cubic-bezier(0.2,0.6,0.2,1); }
+  .js [data-reveal] { opacity: 0; transform: translateY(14px); }
+  .js [data-reveal].is-visible { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .js [data-reveal] { opacity: 1; transform: none; transition: none; }
+  }
+
+  .caret { display: inline-block; width: 2px; height: 0.95em; background: var(--accent); margin-left: 2px; transform: translateY(0.16em); animation: caret-blink 1.1s step-end infinite; }
+  .reduced-motion .caret { animation: none; }
+
+  .hero-row { display: flex; align-items: center; gap: 32px; }
+  .hero-row > p { flex: 1; min-width: 0; }
+  .portrait { width: 148px; height: 148px; object-fit: cover; border-radius: 14px; border: 1px solid #E4DFD5; flex-shrink: 0; filter: grayscale(1) sepia(0.14) contrast(1.04) brightness(1.02); }
+
+  @media (max-width: 600px) {
+    header { padding-top: 64px !important; }
+    .hero-row { gap: 20px; align-items: flex-start; }
+    .portrait { width: 96px; height: 96px; border-radius: 10px; }
+  }
+
+  @media print {
+    .lang-switch { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<main style="font-family: 'Inter', system-ui, sans-serif; color: #1C1A17; background: #FBFAF8; min-height: 100vh; padding-bottom: 0px">
+
+  <!-- ============ HERO ============ -->
+  <header style="max-width: 720px; margin: 0 auto; padding: 104px 24px 0; display: flex; flex-direction: column; gap: 28px">
+    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px">
+      <p data-t="kicker" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Curriculum vitae&nbsp;&nbsp;·&nbsp;&nbsp;Stockholm</p>
+      <!-- Language selector: real <button>s (keyboard & screen-reader friendly); hidden in print via @media print -->
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="true" lang="en" aria-label="English">EN</button>
+        <span class="lang-sep" aria-hidden="true">/</span>
+        <button type="button" class="lang-btn" data-lang="sv" aria-pressed="false" lang="sv" aria-label="Svenska">SV</button>
+      </div>
+    </div>
+    <h1 data-t="name" style="margin: 0; font-family: 'Fraunces', 'Literata', serif; font-weight: 480; font-size: clamp(46px, 8.5vw, 78px); line-height: 1.02; letter-spacing: -0.018em; text-wrap: balance">Ioannis Koupidis<span style="color: var(--accent)">.</span></h1>
+    <div class="hero-row">
+      <p id="tagline" data-t="tagline" style="margin: 0; font-family: 'Fraunces', 'Literata', serif; font-weight: 400; font-size: clamp(19px, 3vw, 23px); line-height: 1.5; color: #4A453D; max-width: 34em">I bring twenty years of design and operations · twelve of them inside Swedish healthcare · as a <em id="role-word" style="font-style: italic; color: var(--accent)">designer.</em><span class="caret" aria-hidden="true"></span></p>
+      <img class="portrait" id="portrait" src="portrait.jpg" alt="Portrait of Ioannis Koupidis" width="720" height="720">
+    </div>
+    <nav id="contact-nav" aria-label="Contact" style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 26px; padding-top: 8px; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 13px">
+      <a class="contact-link" href="tel:+46739558253">+46 73 955 82 53</a>
+      <a class="contact-link" href="mailto:gkoupidis@gmail.com">gkoupidis@gmail.com</a>
+      <span data-t="location" style="color: #8A8378">Stockholm</span>
+      <a class="li-btn" href="https://www.linkedin.com/in/koupidisyannis/" target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="display: block"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+      <a class="pdf-btn" href="CV_Ioannis_Koupidis.pdf"><span data-t="pdfBtn">Download PDF</span> <span aria-hidden="true">↓</span></a>
+    </nav>
+  </header>
+
+  <!-- ============ PROFILE ============ -->
+  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 28px">
+      <h2 data-t="profileH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Profile</h2>
+      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
+    </div>
+    <p data-t="profileText" style="margin: 0; font-size: 17px; line-height: 1.75; color: #3F3A33; text-wrap: pretty"><strong style="font-weight: 600; color: #1C1A17">UX Designer</strong> with a background in Graphic Design and 20+ years of experience across design, branding, and business operations. I started in Athens, working for more than a decade with fashion houses, food brands, and creative agencies. In Stockholm, I founded and ran a staffing company supplying specialist doctors to Swedish public healthcare, with an <strong style="font-weight: 600; color: #1C1A17">ISO 9001 and ISO 14001 certified</strong> quality management system: contracts, budgets, scheduling, GDPR, and public procurement in a regulated market. I recently completed the UX Design program at Medieinstitutet Stockholm. I now focus on <strong style="font-weight: 600; color: #1C1A17">UX Research and Product Design</strong>: user interviews, usability testing, prototyping in Figma, and clear documentation. Twelve years on the customer side of healthcare systems taught me exactly where users get stuck.</p>
+    <p data-t="skillsLine" style="margin: 20px 0 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; line-height: 2.1; color: #8A8378">User interviews&nbsp;&nbsp;·&nbsp;&nbsp;usability testing&nbsp;&nbsp;·&nbsp;&nbsp;Figma &amp; prototyping&nbsp;&nbsp;·&nbsp;&nbsp;personas &amp; journey mapping&nbsp;&nbsp;·&nbsp;&nbsp;onboarding flows&nbsp;&nbsp;·&nbsp;&nbsp;healthcare operations&nbsp;&nbsp;·&nbsp;&nbsp;GDPR &amp; regulated markets&nbsp;&nbsp;·&nbsp;&nbsp;AI native workflow</p>
+  </section>
+
+  <!-- ============ SELECTED WORK ============ -->
+  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 28px">
+      <h2 data-t="workH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Selected work</h2>
+      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
+    </div>
+    <article style="display: flex; flex-direction: column; gap: 14px; padding: 28px; background: #F7F2EA; border: 1px solid #E7DECE; border-radius: 12px">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
+        <h3 data-t="agentTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Agent X <span style="font-weight: 400; color: #6E685F">· onboarding case study</span></h3>
+        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">Medieinstitutet Stockholm, 2026</span>
+      </div>
+      <p data-t="agentDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Redesigned onboarding for new players in a demanding hardcore shooter · a first session where the goal is getting users to value fast. Eight player interviews, two personas, a journey map, annotated wireframes, and three think aloud usability sessions led to a validated concept for a subtle guide inside the game world.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 2px">
+        <span data-t="agentTag1" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Onboarding</span>
+        <span data-t="agentTag2" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">User research</span>
+        <span data-t="agentTag3" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Usability testing</span>
+      </div>
+      <a class="case-link" href="https://ioanniskp.github.io/-agent-x-case-study/"><span data-t="agentLink">View case study</span> <span aria-hidden="true">→</span></a>
+    </article>
+  </section>
+
+  <!-- ============ OPERATIONAL PROOF ============ -->
+  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px">
+      <h2 data-t="proofH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Proof in numbers</h2>
+      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
+    </div>
+    <div class="metric-grid">
+      <div class="metric"><strong data-t="m1v">25+</strong><span data-t="m1l">public tenders won</span></div>
+      <div class="metric"><strong data-t="m2v">140+</strong><span data-t="m2l">physicians scheduled across parallel assignments</span></div>
+      <div class="metric"><strong data-t="m3v">€130M+</strong><span data-t="m3l">in awarded framework agreements (1.5B+ SEK)</span></div>
+      <div class="metric"><strong data-t="m4v">All</strong><span data-t="m4l">nationwide coverage in Swedish public healthcare</span></div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
+    <div data-reveal style="display: flex; align-items: center; gap: 16px; margin-bottom: 8px">
+      <h2 data-t="expH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Experience</h2>
+      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
+    </div>
+
+    <!-- Era: Operations -->
+    <div data-reveal style="display: flex; align-items: baseline; gap: 12px; padding: 40px 0 8px">
+      <span aria-hidden="true" style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent); transform: translateY(-1px)"></span>
+      <h3 data-t="era1" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; font-weight: 500; letter-spacing: 0.06em; color: #55504A">Operations&nbsp;&nbsp;·&nbsp;&nbsp;Stockholm&nbsp;&nbsp;·&nbsp;&nbsp;2011&nbsp;→</h3>
+    </div>
+
+    <article data-reveal style="padding: 24px 0 28px; border-bottom: 1px solid #EFEBE3; display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
+        <h4 data-t="kondukoTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Founder &amp; CEO <span style="font-weight: 400; color: #6E685F">· Konduko AB</span></h4>
+        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2012 to 2025</span>
+      </div>
+      <p data-t="kondukoDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">I founded and ran a staffing company that supplied specialist doctors to Swedish public healthcare, with an ISO 9001 and ISO 14001 certified quality management system. I independently won more than 25 public tenders. The framework agreements awarded in the last three years alone were worth more than 1.5 billion SEK, about €130 million. I was responsible for contracts, client and physician partnerships, scheduling 140+ doctors across parallel assignments, budgets, invoicing, cash flow, recruitment, and vetting. For twelve years, I balanced competing priorities across clients, consultants, and regulatory requirements · as a daily user of the scheduling, procurement, and invoicing systems Swedish healthcare runs on.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 2px">
+        <span data-t="kondukoTag1" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Contracts</span>
+        <span data-t="kondukoTag2" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Budgets &amp; cash flow</span>
+        <span data-t="kondukoTag3" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Public tenders</span>
+        <span style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">ISO 9001</span>
+        <span style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">ISO 14001</span>
+        <span data-t="kondukoTag6" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">12 years</span>
+      </div>
+    </article>
+
+    <article data-reveal style="padding: 24px 0 28px; display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
+        <h4 data-t="niyaTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Founder <span style="font-weight: 400; color: #6E685F">· NiyaCare Stockholm AB</span></h4>
+        <span data-t="niyaDate" style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2011 to present</span>
+      </div>
+      <p data-t="niyaDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">A personal assistance company supporting people with disabilities in finding, evaluating, and keeping the right personal assistants. I was responsible for matching assistants to individual needs, service quality, and daily operations.</p>
+    </article>
+
+    <!-- Era: Creative & design practice -->
+    <div data-reveal style="display: flex; align-items: baseline; gap: 12px; padding: 40px 0 8px; border-top: 1px solid #EFEBE3">
+      <span aria-hidden="true" style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent); transform: translateY(-1px)"></span>
+      <h3 data-t="era2" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; font-weight: 500; letter-spacing: 0.06em; color: #55504A">Design &amp; creative work&nbsp;&nbsp;·&nbsp;&nbsp;Athens&nbsp;&nbsp;·&nbsp;&nbsp;1998 to 2011</h3>
+    </div>
+
+    <article data-reveal style="padding: 24px 0 28px; border-bottom: 1px solid #EFEBE3; display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
+        <h4 data-t="apolytoTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Graphic Designer → Project Manager <span style="font-weight: 400; color: #6E685F">· Apolyto S.A.</span></h4>
+        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">1998 to 2009</span>
+      </div>
+      <p data-t="apolytoDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Design and production for commercial clients. Layout, image retouching, colour management, print production, client briefs, and quality control. Over time, I moved into project coordination and took responsibility for smooth, on time delivery.</p>
+    </article>
+
+    <article data-reveal style="padding: 24px 0 28px; border-bottom: 1px solid #EFEBE3; display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
+        <h4 data-t="frentzosTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Creative Consultant <span style="font-weight: 400; color: #6E685F">· Angelos Frentzos S.A.</span></h4>
+        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2004 to 2011</span>
+      </div>
+      <p data-t="frentzosDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Creative work with fashion designer Angelos Frentzos across branding, lookbook concepts, visual storytelling and photo shoot direction · including concept work and the production of a lookbook for Milan Fashion Week.</p>
+    </article>
+
+    <article data-reveal style="padding: 24px 0 28px; border-bottom: 1px solid #EFEBE3; display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
+        <h4 data-t="barbaraTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Creative Consultant <span style="font-weight: 400; color: #6E685F">· Barbara's Food Company</span></h4>
+        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2009 to 2010</span>
+      </div>
+      <p data-t="barbaraDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Branding, packaging design, food styling, and photography. I helped shape the visual identity and launch of Delivery by Barbara.</p>
+    </article>
+
+    <article data-reveal style="padding: 24px 0 4px; display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
+        <h4 data-t="pwcTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Design Consultant <span style="font-weight: 400; color: #6E685F">· PricewaterhouseCoopers</span></h4>
+        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2004 to 2009</span>
+      </div>
+      <p data-t="pwcDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Worked with the marketing and communications team on national print advertising and conference materials, bringing clarity, structure, and consistency to the visual communication.</p>
+    </article>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px">
+      <h2 data-t="eduH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Education</h2>
+      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
+    </div>
+    <div style="display: flex; flex-direction: column">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 18px 0; border-bottom: 1px solid #EFEBE3">
+        <span data-t="edu1" style="font-size: 15.5px; font-weight: 600; color: #1C1A17">Medieinstitutet Stockholm <span style="font-weight: 400; color: #6E685F">· UX Design</span></span>
+        <span data-t="edu1Date" style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">Mar to Jun 2026</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 18px 0; border-bottom: 1px solid #EFEBE3">
+        <span data-t="edu2" style="font-size: 15.5px; font-weight: 600; color: #1C1A17">IIEK Technografiko, Athens <span style="font-weight: 400; color: #6E685F">· Graphic Design</span></span>
+        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">1996</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 18px 0">
+        <span data-t="edu3" style="font-size: 15.5px; font-weight: 600; color: #1C1A17">1st Lyceum of Kaisariani, Athens</span>
+        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">1993</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LANGUAGES ============ -->
+  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 28px">
+      <h2 data-t="langH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Languages</h2>
+      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 20px">
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <span data-t="langGreek" style="font-size: 15px; font-weight: 600; color: #1C1A17">Greek</span>
+        <span data-t="langGreekLvl" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; color: #8A8378">native</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <span data-t="langEnglish" style="font-size: 15px; font-weight: 600; color: #1C1A17">English</span>
+        <span data-t="langEnglishLvl" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; color: #8A8378">fluent</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <span data-t="langSwedish" style="font-size: 15px; font-weight: 600; color: #1C1A17">Swedish</span>
+        <span data-t="langSwedishLvl" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; color: #8A8378">fluent</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <span data-t="langGerman" style="font-size: 15px; font-weight: 600; color: #1C1A17">German</span>
+        <span data-t="langGermanLvl" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; color: #8A8378">basic</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 120px 24px 96px">
+    <p data-t="closing" style="margin: 0; font-family: 'Fraunces', 'Literata', serif; font-style: italic; font-weight: 400; font-size: clamp(23px, 4vw, 29px); line-height: 1.45; color: #1C1A17; text-wrap: balance">Twelve years on the customer side of healthcare software. Now I design it. <a class="closing-link" href="mailto:gkoupidis@gmail.com">Get in touch.</a></p>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer style="border-top: 1px solid #EFEBE3">
+    <p data-t="footer" style="max-width: 720px; margin: 0 auto; padding: 36px 24px 64px; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; line-height: 1.8; color: #8A8378">Ioannis Koupidis&nbsp;&nbsp;·&nbsp;&nbsp;Set in Fraunces, Inter &amp; IBM Plex Mono</p>
+  </footer>
+
+</main>
+
+<script>
+(function () {
+  document.documentElement.classList.add('js');
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduced) document.documentElement.classList.add('reduced-motion');
+
+  /* ============ Translations ============
+     Single source of truth for every visible string, keyed per language.
+     - Elements are matched by their data-t attribute (data-t="profileH" <-> I18N[lang].profileH).
+     - Keys starting with "_" are metadata: document title, portrait alt text,
+       contact-nav label, and the typewriter word list.
+     - The static HTML above is the English fallback for visitors without
+       JavaScript, search engines, and link previews. When editing English copy,
+       update it in BOTH places (static HTML + I18N.en). Other languages: dict only. */
+  var EM = '<em id="role-word" style="font-style: italic; color: var(--accent)">';
+  var CARET = '</em><span class="caret" aria-hidden="true"></span>';
+  var STRONG = '<strong style="font-weight: 600; color: #1C1A17">';
+  var SPAN = '<span style="font-weight: 400; color: #6E685F">';
+  var SEP = '&nbsp;&nbsp;·&nbsp;&nbsp;';
+  var MAIL = '<a class="closing-link" href="mailto:gkoupidis@gmail.com">';
+
+  var I18N = {
+    en: {
+      _title: 'Ioannis Koupidis · UX Designer',
+      _alt: 'Portrait of Ioannis Koupidis',
+      _nav: 'Contact',
+      _words: ['designer.', 'founder.', 'researcher.', 'project manager.'],
+      kicker: 'Curriculum vitae' + SEP + 'Stockholm',
+      name: 'Ioannis Koupidis<span style="color: var(--accent)">.</span>',
+      tagline: 'I bring twenty years of design and operations · twelve of them inside Swedish healthcare · as a ' + EM + 'designer.' + CARET,
+      location: 'Stockholm',
+      pdfBtn: 'Download PDF',
+      profileH: 'Profile',
+      profileText: STRONG + 'UX Designer</strong> with a background in Graphic Design and 20+ years of experience across design, branding, and business operations. I started in Athens, working for more than a decade with fashion houses, food brands, and creative agencies. In Stockholm, I founded and ran a staffing company supplying specialist doctors to Swedish public healthcare, with an ' + STRONG + 'ISO 9001 and ISO 14001 certified</strong> quality management system: contracts, budgets, scheduling, GDPR, and public procurement in a regulated market. I recently completed the UX Design program at Medieinstitutet Stockholm. I now focus on ' + STRONG + 'UX Research and Product Design</strong>: user interviews, usability testing, prototyping in Figma, and clear documentation. Twelve years on the customer side of healthcare systems taught me exactly where users get stuck.',
+      skillsLine: 'User interviews' + SEP + 'usability testing' + SEP + 'Figma &amp; prototyping' + SEP + 'personas &amp; journey mapping' + SEP + 'onboarding flows' + SEP + 'healthcare operations' + SEP + 'GDPR &amp; regulated markets' + SEP + 'AI native workflow',
+      workH: 'Selected work',
+      agentTitle: 'Agent X ' + SPAN + '· onboarding case study</span>',
+      agentDesc: 'Redesigned onboarding for new players in a demanding hardcore shooter · a first session where the goal is getting users to value fast. Eight player interviews, two personas, a journey map, annotated wireframes, and three think aloud usability sessions led to a validated concept for a subtle guide inside the game world.',
+      agentTag1: 'Onboarding', agentTag2: 'User research', agentTag3: 'Usability testing',
+      agentLink: 'View case study',
+      proofH: 'Proof in numbers',
+      m1v: '25+', m1l: 'public tenders won',
+      m2v: '140+', m2l: 'physicians scheduled across parallel assignments',
+      m3v: '€130M+', m3l: 'in awarded framework agreements (1.5B+ SEK)',
+      m4v: 'All', m4l: 'nationwide coverage in Swedish public healthcare',
+      expH: 'Experience',
+      era1: 'Operations' + SEP + 'Stockholm' + SEP + '2011&nbsp;→',
+      kondukoTitle: 'Founder &amp; CEO ' + SPAN + '· Konduko AB</span>',
+      kondukoDesc: 'I founded and ran a staffing company that supplied specialist doctors to Swedish public healthcare, with an ISO 9001 and ISO 14001 certified quality management system. I independently won more than 25 public tenders. The framework agreements awarded in the last three years alone were worth more than 1.5 billion SEK, about €130 million. I was responsible for contracts, client and physician partnerships, scheduling 140+ doctors across parallel assignments, budgets, invoicing, cash flow, recruitment, and vetting. For twelve years, I balanced competing priorities across clients, consultants, and regulatory requirements · as a daily user of the scheduling, procurement, and invoicing systems Swedish healthcare runs on.',
+      kondukoTag1: 'Contracts', kondukoTag2: 'Budgets &amp; cash flow', kondukoTag3: 'Public tenders', kondukoTag6: '12 years',
+      niyaTitle: 'Founder ' + SPAN + '· NiyaCare Stockholm AB</span>',
+      niyaDate: '2011 to present',
+      niyaDesc: 'A personal assistance company supporting people with disabilities in finding, evaluating, and keeping the right personal assistants. I was responsible for matching assistants to individual needs, service quality, and daily operations.',
+      era2: 'Design &amp; creative work' + SEP + 'Athens' + SEP + '1998 to 2011',
+      apolytoTitle: 'Graphic Designer → Project Manager ' + SPAN + '· Apolyto S.A.</span>',
+      apolytoDesc: 'Design and production for commercial clients. Layout, image retouching, colour management, print production, client briefs, and quality control. Over time, I moved into project coordination and took responsibility for smooth, on time delivery.',
+      frentzosTitle: 'Creative Consultant ' + SPAN + '· Angelos Frentzos S.A.</span>',
+      frentzosDesc: 'Creative work with fashion designer Angelos Frentzos across branding, lookbook concepts, visual storytelling and photo shoot direction · including concept work and the production of a lookbook for Milan Fashion Week.',
+      barbaraTitle: 'Creative Consultant ' + SPAN + '· Barbara&#39;s Food Company</span>',
+      barbaraDesc: 'Branding, packaging design, food styling, and photography. I helped shape the visual identity and launch of Delivery by Barbara.',
+      pwcTitle: 'Design Consultant ' + SPAN + '· PricewaterhouseCoopers</span>',
+      pwcDesc: 'Worked with the marketing and communications team on national print advertising and conference materials, bringing clarity, structure, and consistency to the visual communication.',
+      eduH: 'Education',
+      edu1: 'Medieinstitutet Stockholm ' + SPAN + '· UX Design</span>',
+      edu1Date: 'Mar to Jun 2026',
+      edu2: 'IIEK Technografiko, Athens ' + SPAN + '· Graphic Design</span>',
+      edu3: '1st Lyceum of Kaisariani, Athens',
+      langH: 'Languages',
+      langGreek: 'Greek', langGreekLvl: 'native',
+      langEnglish: 'English', langEnglishLvl: 'fluent',
+      langSwedish: 'Swedish', langSwedishLvl: 'fluent',
+      langGerman: 'German', langGermanLvl: 'basic',
+      closing: 'Twelve years on the customer side of healthcare software. Now I design it. ' + MAIL + 'Get in touch.</a>',
+      footer: 'Ioannis Koupidis' + SEP + 'Set in Fraunces, Inter &amp; IBM Plex Mono'
+    },
+    sv: {
+      _title: 'Ioannis Koupidis · UX Designer',
+      _alt: 'Porträtt av Ioannis Koupidis',
+      _nav: 'Kontakt',
+      _words: ['designer.', 'grundare.', 'researcher.', 'projektledare.'],
+      kicker: 'Curriculum vitae' + SEP + 'Stockholm',
+      name: 'Ioannis Koupidis<span style="color: var(--accent)">.</span>',
+      tagline: 'Jag tar med mig tjugo år av design och operations · tolv av dem inom svensk vård · som ' + EM + 'designer.' + CARET,
+      location: 'Stockholm',
+      pdfBtn: 'Ladda ner PDF',
+      profileH: 'Profil',
+      profileText: STRONG + 'UX Designer</strong> med bakgrund inom Graphic Design och mer än 20 års erfarenhet av design, branding och företagsdrift. Jag började min karriär i Aten och arbetade i över tio år med modehus, matvarumärken och kreativa byråer. I Stockholm grundade och drev jag ett bemanningsföretag som levererade specialistläkare till svensk offentlig vård, med ett ' + STRONG + 'ISO 9001 och ISO 14001 certifierat</strong> ledningssystem: avtal, budgetar, schemaläggning, GDPR och offentlig upphandling på en reglerad marknad. Jag har nyligen avslutat UX Design programmet på Medieinstitutet i Stockholm. Nu fokuserar jag på ' + STRONG + 'UX Research och Product Design</strong>: användarintervjuer, usability testing, prototyper i Figma och tydlig dokumentation. Tolv år på kundsidan av vårdens system har lärt mig exakt var användarna fastnar.',
+      skillsLine: 'Användarintervjuer' + SEP + 'usability testing' + SEP + 'Figma &amp; prototyper' + SEP + 'personas &amp; journey mapping' + SEP + 'onboardingflöden' + SEP + 'vårdverksamhet' + SEP + 'GDPR &amp; reglerade marknader' + SEP + 'AI i det dagliga arbetet',
+      workH: 'Utvalda arbeten',
+      agentTitle: 'Agent X ' + SPAN + '· onboarding case study</span>',
+      agentDesc: 'Redesign av onboarding för nya spelare i ett krävande hardcore shooter · en första session där målet är att snabbt ta användaren till värde. Åtta spelarintervjuer, två personas, en journey map, annotated wireframes och tre usability testing sessioner med think aloud metod ledde fram till ett validerat koncept för en diskret guide inne i spelvärlden.',
+      agentTag1: 'Onboarding', agentTag2: 'User research', agentTag3: 'Usability testing',
+      agentLink: 'Visa case study',
+      proofH: 'Resultat i siffror',
+      m1v: '25+', m1l: 'vunna offentliga upphandlingar',
+      m2v: '140+', m2l: 'läkare schemalagda i parallella uppdrag',
+      m3v: '€130M+', m3l: 'i tilldelade ramavtal (1,5B+ SEK)',
+      m4v: 'All', m4l: 'nationell täckning inom svensk offentlig vård',
+      expH: 'Erfarenhet',
+      era1: 'Operations' + SEP + 'Stockholm' + SEP + '2011&nbsp;→',
+      kondukoTitle: 'Grundare &amp; CEO ' + SPAN + '· Konduko AB</span>',
+      kondukoDesc: 'Jag grundade och drev ett bemanningsföretag som levererade specialistläkare till svensk offentlig vård, med ett ISO 9001 och ISO 14001 certifierat ledningssystem. Jag vann självständigt fler än 25 offentliga upphandlingar. Bara de ramavtal som tilldelades under de sista tre åren hade ett värde på över 1,5 miljarder SEK, cirka €130 miljoner. Jag ansvarade för avtal, kund och läkarsamarbeten, schemaläggning av 140+ läkare i parallella uppdrag, budgetar, fakturering, kassaflöde, rekrytering och kvalitetssäkring. Under tolv år balanserade jag konkurrerande prioriteringar mellan kunder, konsulter och regulatoriska krav · som daglig användare av de system för schemaläggning, upphandling och fakturering som svensk vård bygger på.',
+      kondukoTag1: 'Avtal', kondukoTag2: 'Budgetar &amp; kassaflöde', kondukoTag3: 'Offentliga upphandlingar', kondukoTag6: '12 år',
+      niyaTitle: 'Grundare ' + SPAN + '· NiyaCare Stockholm AB</span>',
+      niyaDate: '2011 till idag',
+      niyaDesc: 'Ett assistansföretag som stöttar personer med funktionsnedsättning i att hitta, utvärdera och behålla rätt personliga assistenter. Jag ansvarade för att matcha assistenter med individuella behov, säkra kvaliteten i tjänsterna och driva den dagliga verksamheten.',
+      era2: 'Design &amp; creative work' + SEP + 'Aten' + SEP + '1998 till 2011',
+      apolytoTitle: 'Graphic Designer → Project Manager ' + SPAN + '· Apolyto S.A.</span>',
+      apolytoDesc: 'Design och produktion för kommersiella kunder. Layout, bildretusch, färghantering, tryckproduktion, kundbriefar och kvalitetskontroll. Med tiden gick jag över till projektkoordinering och tog ansvar för smidig leverans i tid.',
+      frentzosTitle: 'Creative Consultant ' + SPAN + '· Angelos Frentzos S.A.</span>',
+      frentzosDesc: 'Kreativt arbete med modedesignern Angelos Frentzos inom branding, lookbook-koncept, visual storytelling och photo shoot direction · bland annat idéarbete och produktion av en lookbook inför Milan Fashion Week.',
+      barbaraTitle: 'Creative Consultant ' + SPAN + '· Barbara&#39;s Food Company</span>',
+      barbaraDesc: 'Branding, förpackningsdesign, food styling och fotografering. Jag var med och formade den visuella identiteten och lanseringen av Delivery by Barbara.',
+      pwcTitle: 'Design Consultant ' + SPAN + '· PricewaterhouseCoopers</span>',
+      pwcDesc: 'Arbetade med marketing och kommunikation kring nationell printannonsering och konferensmaterial, med fokus på tydlighet, struktur och konsekvens i den visuella kommunikationen.',
+      eduH: 'Utbildning',
+      edu1: 'Medieinstitutet Stockholm ' + SPAN + '· UX Design</span>',
+      edu1Date: 'mars till juni 2026',
+      edu2: 'IIEK Technografiko, Aten ' + SPAN + '· Graphic Design</span>',
+      edu3: '1:a gymnasiet i Kaisariani, Aten',
+      langH: 'Språk',
+      langGreek: 'Grekiska', langGreekLvl: 'modersmål',
+      langEnglish: 'Engelska', langEnglishLvl: 'flytande',
+      langSwedish: 'Svenska', langSwedishLvl: 'flytande',
+      langGerman: 'Tyska', langGermanLvl: 'grundläggande',
+      closing: 'Tolv år på kundsidan av vårdens system. Nu designar jag dem. ' + MAIL + 'Hör av dig.</a>',
+      footer: 'Ioannis Koupidis' + SEP + 'Satt med Fraunces, Inter &amp; IBM Plex Mono'
+    }
+
+  };
+
+  var currentLang = 'en';
+  var words = I18N.en._words;
+
+  /* Apply a language: swap every data-t node, sync <html lang>, document
+     title, alt/aria labels, switcher button states, and the typewriter. */
+  function setLang(lang) {
+    if (!I18N[lang]) return;
+    currentLang = lang;
+    words = I18N[lang]._words;
+    document.documentElement.lang = lang;
+    document.title = I18N[lang]._title;
+
+    var nodes = document.querySelectorAll('[data-t]');
+    for (var i = 0; i < nodes.length; i++) {
+      var key = nodes[i].getAttribute('data-t');
+      if (I18N[lang][key] !== undefined) nodes[i].innerHTML = I18N[lang][key];
+    }
+    var portrait = document.getElementById('portrait');
+    if (portrait) portrait.alt = I18N[lang]._alt;
+    var nav = document.getElementById('contact-nav');
+    if (nav) nav.setAttribute('aria-label', I18N[lang]._nav);
+
+    var btns = document.querySelectorAll('.lang-btn');
+    for (var j = 0; j < btns.length; j++) {
+      btns[j].setAttribute('aria-pressed', btns[j].getAttribute('data-lang') === lang ? 'true' : 'false');
+    }
+
+    // Reset typewriter to the first word of the new language
+    wordIndex = 0;
+    phase = 'hold';
+    var roleEl = document.getElementById('role-word');
+    if (roleEl) roleEl.textContent = words[0];
+  }
+
+  var switchBtns = document.querySelectorAll('.lang-btn');
+  for (var b = 0; b < switchBtns.length; b++) {
+    switchBtns[b].addEventListener('click', function () {
+      setLang(this.getAttribute('data-lang'));
+    });
+  }
+
+  /* ============ Typewriter role word ============ */
+  var wordIndex = 0;
+  var phase = 'hold';
+  if (!reduced) {
+    var step = function () {
+      var roleEl = document.getElementById('role-word');
+      if (!roleEl) { setTimeout(step, 500); return; }
+      var cur = roleEl.textContent;
+      var delay = 70;
+      if (phase === 'hold') {
+        phase = 'deleting';
+        delay = 2400;
+      } else if (phase === 'deleting') {
+        if (cur.length > 0) {
+          roleEl.textContent = cur.slice(0, -1);
+          delay = 45;
+        } else {
+          wordIndex = (wordIndex + 1) % words.length;
+          phase = 'typing';
+          delay = 420;
+        }
+      } else {
+        var next = words[wordIndex];
+        if (cur.length < next.length) {
+          roleEl.textContent = next.slice(0, cur.length + 1);
+          delay = 75;
+        } else {
+          phase = 'hold';
+          delay = 0;
+        }
+      }
+      setTimeout(step, delay);
+    };
+    setTimeout(step, 1200);
+  }
+
+  /* ============ Scroll reveal ============ */
+  if (!reduced) {
+    var els = Array.prototype.slice.call(document.querySelectorAll('[data-reveal]'));
+    var pending = new Set(els);
+    var reveal = function (el) {
+      el.classList.add('is-visible');
+      pending.delete(el);
+      io.unobserve(el);
+    };
+    var sweep = function () {
+      pending.forEach(function (el) {
+        if (el.getBoundingClientRect().top < window.innerHeight * 0.94) reveal(el);
+      });
+      if (pending.size === 0) window.removeEventListener('scroll', sweep);
+    };
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) reveal(e.target); });
+      sweep();
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.05 });
+    els.forEach(function (el) { io.observe(el); });
+    window.addEventListener('scroll', sweep, { passive: true });
+  }
+})();
+</script>
+
+</body>
+</html>
